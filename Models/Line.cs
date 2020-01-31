@@ -9,9 +9,9 @@ namespace program.Models
 	{
 	
 		// data members with auto-generated getters and setters:
-        public int StationID { get; set; }
+        	public int StationID { get; set; }
 		public string StationName { get; set; }
-        public int NumOfStops { get; set; }
+       		public int NumOfStops { get; set; }
 
 	
 		// default constructor:
@@ -23,7 +23,7 @@ namespace program.Models
 		{
 			StationID = id;
 			StationName = name;
-            NumOfStops = numOfStops;
+           		NumOfStops = numOfStops;
 		}
 		
 	}//class
